@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(0, 126, 243);
+    align-items: center;
+    display: flex;
+}
+.logo{
+    width: 15%;
+    margin-left: 100px;
+    
+}
+.logo img{
+    width: 100px;
+}
+.fastmanu{
+    width: 60%;
+    display: flex;
+    margin-left: 100px;
+}
+.fastmanu a{
+    padding:0px 50px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: 2px solid red;
+    border-radius: 15px;
+    
+}
+.fastmanu a:hover{
+    background-color: red;
+    color: black;  
+}
+.sarchbar{
+    width: 25%;
+}
+.mainbody{
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+}
+.sidebar{
+    width: 20%;
+    background-color: rgb(167, 189, 167);
+    height: 700px;
+}
+.sidebar ul li{
+    padding: 10px;
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.sidebar ul li:hover{
+    background-color: red;
+    border-radius: 15px;
+}
+
+.gallary{
+    width: 80%;
+
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="logo-dark.png" alt="">
+        </div>
+
+        <div class="fastmanu">
+            <a href="Main-file.html">About Us</a>
+            <a href="Feather.html">Features</a>
+            <a href="table.html">Contact Us</a>
+           
+        </div>
+
+
+        <div class="sarchbar">
+            <input type="text">
+            <button>sarch</button>
+        </div>
+    </nav>
+        
+    <div class="mainbody">
+        <div class="sidebar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Search Book</a></li>
+                <li><a href="#">Upload Book</a></li>
+                <li><a href="#">The News</a></li>
+                <li><a href="#">User Registration</a></li>
+            </ul>
+        </div>
+
+        <div class="gallary">
+            <marquee behavior="" direction="" style="background-color: rgb(10, 10, 10); color: red; font-size: 30px;">Welcome My Project</marquee>
+            <div >
+                <table border="2px"  style="background-color: bisque;">
+                    <tr style="background-color: rgba(67, 223, 19, 0.904);">
+                        <th>sl</th>
+                        <th>name</th>
+                        <th>Email</th>
+                        <th>Number</th>
+                    </tr>
+                    <tr>
+                        <td>01</td>
+                        <td>Rafi</td>
+                        <td>rayhanraju38@gmail.com</td>
+                        <td>01516125589</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>fikul</td>
+                        <td>rayhanraju38@gmail.com</td>
+                        <td>01515625589</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>kul</td>
+                        <td>rayhanraju38@gmail.com</td>
+                        <td>015156525589</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>Md Rafikul</td>
+                        <td>rayhanraju38@gmail.com</td>
+                        <td>015165225589</td>
+                    </tr>
+                </table>
+            </div>
+
+
+
+        </div>
+
+    </div>
+</body>
+</html>
+                  
