@@ -17,6 +17,9 @@ nav{
 .d li a{
     color: black;
 }
+.social a{
+    text-decoration: none;
+}
 
 /* .nav2 a{
     color: white;
