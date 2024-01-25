@@ -183,34 +183,102 @@
 //4 condition switch,case,brack
 
 
-var score =prompt("Hey Enter your score : ");
-      score =score.toLowerCase();
+// var score =prompt("Hey Enter your score : ");
+//     score =score.toLowerCase();
       
 
-      switch(score) {
-      case "a":
-      document.write("Vowel")
-    break;
+//       switch(score) {
+//         case "a":
+//       document.write("Vowel")
+//     break;
 
-      case "e":
-      document.write("Vowel")
-    break;
-      case "i":
-      document.write("Vowel")
-    break;
+//       case "e":
+//       document.write("Vowel")
+//     break;
+//       case "i":
+//       document.write("Vowel")
+//     break;
 
-    case "o":
-      document.write("Vowel")
-    break;
-      case "u":
-      document.write("Vowel")
-    break;
+//     case "o":
+//       document.write("Vowel")
+//     break;
+//       case "u":
+//       document.write("Vowel")
+//     break;
     
 
       
 
-  default:
-    document.write("Cosonent")
+//   default:
+//     document.write("Cosonent")
+   
+// }
+
+
+
+
+//5 condition switch,case,brack
+
+// var score =prompt("Hey Enter your score : ");
+//     score =score.toLowerCase();
+      
+
+//       switch(score) {
+//       case "a":
+//       case "e":
+//       case "i":
+//       case "o":
+//       case "u":
+//       document.write("Vowel")
+//     break;
+    
+//   default:
+//     document.write("Cosonent")
+   
+// }
+
+
+var score =prompt("Hey Enter your score : ");
+
+      
+
+      switch(true) {
+
+      case (score<=100 && score>=90):
+      document.write("A")
+      break;
+
+      case (score<=89 && score>=80 ):
+      document.write("B")
+      break;
+
+      case (score<=79 && score>=70 ):
+      document.write("C")
+      break;
+      
+      case (score<=69 && score>=60 ):
+      document.write("D")
+      break;
+
+      case (score<=59 && score>=50 ):
+      document.write("E")
+      break;
+
+      case (score>100 ):
+      document.write("Over Score")
+      break;
+
+      case (score==0 ):
+      document.write("10000 TK aword")
+      break;
+
+      case (score<0 ):
+      document.write("1000 taka Fine")
+      break;
+
+    
+    default:
+    document.write("Fail")
    
 }
 
