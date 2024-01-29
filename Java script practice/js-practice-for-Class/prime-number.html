@@ -10,26 +10,25 @@
 
     <script>
        let userInput = parseFloat(prompt("Pleace enter your number:  "));
-        count=0;
+       let count = 0;
         if(userInput==0 || userInput==1){
             document.write("This is not a logicable number!");
         }
         else{
            
-                for(i=2;i<userInput;i++){
-                if(userInput%i ==0){
+                for(i=2; i < userInput; i++){
+                if(userInput % i == 0){
                     count++;
                     break;
                     }
            
                  }
                 
-                if (count==0){
-                    Document.write(" Wow,It's a prime number. ");
+                if (count == 0){
+                    document.write(" Wow,It's a prime number. ");
                 }
-
                 else{
-                Document.write(" Sorry,It's not a prime number. ");
+                document.write(" Sorry,It's not a prime number. ");
                 }  
                
             }  
