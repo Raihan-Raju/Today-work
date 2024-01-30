@@ -10,13 +10,14 @@
 
 
     <script>
-     var number = [4,5,8,68,79,1];
+      
+      var number = [4,5,8,68,79,1];
          large = number[0];
          small = number[0];
          sum = number[0];
          for (i=0; i<number.length; i++){
             if (small>number[i]){
-                small=n[i];
+                small=number[i];
             }
             if (large<number[i]){
                 large=number[i];
@@ -27,6 +28,26 @@
          document.write("small number :" +small+ "<br/>");
          document.write("large number :" +large+ "<br/>");
          document.write("Total number :" +sum);
+
+
+    //   var number = parseFloat(prompt("pleace Enter your Numbers:....."))
+    // //  var number = [4,5,8,68,79,1];
+    //      large = number();
+    //      small = number();
+    //      sum = number();
+    //      for (i=0; i<number.length; i++){
+    //         if (small>number[i]){
+    //             small=number[i];
+    //         }
+    //         if (large<number[i]){
+    //             large=number[i];
+
+    //         }
+    //         sum+= number[i];
+    //      }
+    //      document.write("small number :" +small+ "<br/>");
+    //      document.write("large number :" +large+ "<br/>");
+    //      document.write("Total number :" +sum);
 
 
     </script>
