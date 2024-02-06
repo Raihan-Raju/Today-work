@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js-form-practice</title>
+</head>
+<body>
+    <form action="#" name="frm">
+
+        <fieldset>
+
+            <legend style="text-align:center">Dekhar Moto Kaj</legend>
+            <label>Name</label>:<br>
+                    <input type="text" name="txtName" placeholder="Enter your name"><br>
+            <label >Address</label>:<br>
+                    <textarea name="addr"></textarea>
+                    <br>
+            <label>Email</label>:<br>
+            <input  type="text" name="textEmail" placeholder="Please Enter your email"><br><br><br>
+                                
+            <input type="button" onclick="dyn()" value="Submit" />
+
+        </fieldset>
+    </form>
+
+    <script language="JavaScript">
+
+        function dyn(){
+           var name= document.frm.txtName.value;
+           var name1= document.frm.addr.value;
+           var name2= document.frm.textEmail.value;
+
+           //For new window
+           win=open('','','width=300px,height=200px');
+
+           with(win.document){
+            write("Name:"+ name +"<br/>");
+         
+  
+
+            // write("input type='button' value 'close' onclick 'self.close();' /> ");
+            // write("input type='button' value 'print' onclick 'self.print();' /> ");
+
+           }
+
+        }
+
+
+    </script>
+
+
+
+</body>
+</html>
