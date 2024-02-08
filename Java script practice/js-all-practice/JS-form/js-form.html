@@ -11,7 +11,7 @@
     <center>
         <form action="#" name="frm" >
 
-            <fieldset style="width: 600px; text-align: center; background-color: coral;" >
+            <fieldset style="width: 600px; text-align: center; background-color: rgb(107, 95, 83);" >
     
                 <legend style="text-align:center; border: 1px solid; background-color: bisque; border-radius: 5px;">Dekhar Moto Kaj</legend>
                 
@@ -21,7 +21,7 @@
                         
                 <input  type="number" name="textNumber" placeholder="Please Enter your number"><br>
                 <input style="margin-top: 5px;"  type="text" name="textEmail" placeholder="Please Enter your email">
-                <input  type="text" name="textEmail" placeholder="Please Enter your Id:"><br>
+                <input  type="text" name="textID" placeholder="Please Enter your Id:"><br>
 
                 
 
@@ -52,21 +52,22 @@
 
         function dyn_window(){
            var name= document.frm.txtName.value;
-           var name1= document.frm.addr.value;
-           var name2= document.frm.textEmail.value;
+           var addrs= document.frm.addr.value;
+           var txemal= document.frm.textEmail.value;
+           var txnum= document.frm.textNumber.value;
 
            //For new window
            win=open('','','width=300px,height=200px');
 
            with(win.document){
             write("Name:"+ name +"<br/>");
-            write("Address:"+name1+"<br/>");
-            write("Email:"+ name2 +"<br/>");
-         
+            write("Number:"+txnum+"<br/>");
+            write("Email:"+ txemal +"<br/>");
+            write("Address:"+addrs+"<br/>");
   
 
-             write("input type='button' value 'close' onclick 'self.close();' /> ");
-             write("input type='button' value 'print' onclick 'self.print();' /> ");
+             write("input type='button' value='close' onclick 'self.close();' /> ");
+             write("input type='button' value ='print' onclick 'self.print();' /> ");
 
            }
 
