@@ -52,9 +52,8 @@ CREATE TABLE `manufacturer` (
 --
 
 INSERT INTO `manufacturer` (`id`, `name`, `contact`) VALUES
-(19, 'Tuhin', '11111111'),
-(20, 'samsum', '01719877455'),
-(22, 'LG', '11111111');
+(1, 'Tuhin', '11111111'),
+(2, 'LG', '11111111');
 
 --
 -- Triggers `manufacturer`
@@ -84,13 +83,8 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`id`, `name`, `price`, `manufac_id`) VALUES
-(5, 'phone', 45.00, 0),
-(18, 'Manush', 100.00, 19),
-(21, '', 0.00, 19),
-(22, '', 0.00, 19),
-(23, 'Frize', 45.00, 19),
-(24, '', 0.00, 20),
-(27, 'Frize', 45000.00, 22);
+(1, 'phone', 45.00, 0),
+(2, 'Frize', 45000.00, 22);
 
 -- --------------------------------------------------------
 
